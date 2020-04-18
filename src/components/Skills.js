@@ -8,23 +8,23 @@ export class Skills extends Component {
           <h3>Programming</h3>
           <div className="d-flex justify-content-around">
             <span>
-              <img src="images/javascript.png" alt="" />
+              <img src={process.env.PUBLIC_URL +"/images/javascript.png"} alt="" />
               Javascript
             </span>
             <span>
-              <img src="images/html.png" alt="" />
+              <img src={process.env.PUBLIC_URL +"/images/html.png"} alt="" />
               HTML
             </span>
             <span>
-              <img src="images/css.png" alt="" />
+              <img src={process.env.PUBLIC_URL +"/images/css.png"} alt="" />
               CSS
             </span>
             <span>
-              <img src="images/python.png" alt="" />
+              <img src={process.env.PUBLIC_URL +"/images/python.png"} alt="" />
               Python
             </span>
             <span>
-              <img src="images/java.png" alt="" />
+              <img src={process.env.PUBLIC_URL +"/images/java.png"} alt="" />
               Java
             </span>
             
@@ -34,19 +34,19 @@ export class Skills extends Component {
           <h3>Frameworks</h3>
           <div className="d-flex justify-content-around">
             <span>
-              <img src="images/reactjs.png" alt="" />
+              <img src={process.env.PUBLIC_URL +"/images/reactjs.png"} alt="" />
               ReactJS
             </span>
             <span>
-              <img src="images/redux.png" alt="" />
+              <img src={process.env.PUBLIC_URL +"/images/redux.png"} alt="" />
               Redux
             </span>
             <span>
-              <img src="images/bootstrap.png" alt="" />
+              <img src={process.env.PUBLIC_URL +"/images/bootstrap.png"} alt="" />
               Bootstrap
             </span>
             <span>
-              <img src="images/django.png" alt="" />
+              <img src={process.env.PUBLIC_URL +"/images/django.png"} alt="" />
               Django
             </span>
           </div>
@@ -55,19 +55,19 @@ export class Skills extends Component {
           <h3>Technologies</h3>
           <div className="d-flex justify-content-around">
             <span>
-              <img src="images/git.png" alt="" />
+              <img src={process.env.PUBLIC_URL +"/images/git.png"} alt="" />
               Git
             </span>
             <span>
-              <img src="images/photoshop.png" alt="" />
+              <img src={process.env.PUBLIC_URL +"/images/photoshop.png"} alt="" />
               Adobe Photoshop
             </span>
             <span>
-              <img src="images/ec2.png" alt="" />
+              <img src={process.env.PUBLIC_URL +"/images/ec2.png"} alt="" />
               AWS EC2
             </span>
             <span>
-              <img src="images/s3.png" alt="" />
+              <img src={process.env.PUBLIC_URL +"/images/s3.png"} alt="" />
               AWS S3
             </span>
           </div>

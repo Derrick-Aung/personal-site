@@ -51,7 +51,7 @@ export class Portfolio extends Component {
           </div>
 
           <img
-            src="images/mellowdy1.png"
+          src={process.env.PUBLIC_URL +"/images/mellowdy1.png"}
             alt=""
             className="project-img"
             onClick={() => this.openLightBox(0)}
@@ -71,7 +71,7 @@ export class Portfolio extends Component {
             <h3 className="my-4">Portfolio Design</h3>
             <div className="img-container">
               <img
-                src="images/portfolio-design1.png"
+                src={process.env.PUBLIC_URL +"/images/portfoliodesign1.png"}
                 alt=""
                 className="project-img"
                 onClick={() => this.openLightBox(1)}
@@ -92,7 +92,7 @@ export class Portfolio extends Component {
             <h3 className="my-4">This Website</h3>
             <div className="img-container">
               <img
-                src="images/thissite1.png"
+                src={process.env.PUBLIC_URL +"/images/thissite1.png"}
                 alt=""
                 className="project-img"
                 onClick={() => this.openLightBox(2)}
