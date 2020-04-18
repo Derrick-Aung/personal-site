@@ -8,9 +8,9 @@ export class Footer extends Component {
                     
                 </div>
                 <div className="icon-bar d-flex justify-content-around">
-                    <a href="#">
+                    {/* <a href="#">
                         <i className="fab fa-linkedin fa-2x"></i>
-                    </a>
+                    </a> */}
                     <a href="mailto:derrick.aungkhant@gmail.com">
                         <i className="fas fa-envelope fa-2x"></i>
                     </a>

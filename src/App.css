@@ -147,6 +147,16 @@ i {
   padding: 1rem;
 }
 
+.portfolio-content a{
+    color: inherit;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.portfolio-content a:hover {
+  color: #04ca83;
+}
+
 .nav-link.active span {
   color: #04ca83;
   border-bottom: 3px solid #04ca83;

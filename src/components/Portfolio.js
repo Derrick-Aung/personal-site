@@ -41,7 +41,9 @@ export class Portfolio extends Component {
         </div>
 
         <div className="portfolio-content right-align">
-          <h3 className="my-4">Mellowdy | Web App for Spotify</h3>
+          <h3 className="my-4">
+            <a href="https://derrick-aung.github.io/mellowdy/">Mellowdy | Web App for Spotify</a>
+          </h3>
           <div className="tag-container">
             <Tag name="ReactJS" />
             <Tag name="Redux" />
@@ -68,7 +70,9 @@ export class Portfolio extends Component {
 
         <div className="projects">
           <div className="portfolio-content">
-            <h3 className="my-4">Portfolio Design</h3>
+            <h3 className="my-4">
+              <a href="https://derrick-aung.github.io/portfolio-design/">Portfolio Design</a>
+            </h3>
             <div className="img-container">
               <img
                 src={process.env.PUBLIC_URL +"/images/portfoliodesign1.png"}
@@ -80,7 +84,7 @@ export class Portfolio extends Component {
             </div>
             <div className="tag-container">
               <Tag name="ReactJS" />
-              <Tag name="CSS Effects" />
+              <Tag name="CSS Grid" />
               <Tag name="GitPages Hosting" />
             </div>
             <p>
@@ -89,7 +93,9 @@ export class Portfolio extends Component {
           </div>
 
           <div className="portfolio-content">
-            <h3 className="my-4">This Website</h3>
+            <h3 className="my-4">
+              <a href="https://derrick-aung.github.io/personal-site/">This Website</a>
+            </h3>
             <div className="img-container">
               <img
                 src={process.env.PUBLIC_URL +"/images/thissite1.png"}
